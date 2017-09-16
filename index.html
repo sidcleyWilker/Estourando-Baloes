@@ -4,14 +4,31 @@
 		<meta charset="UTF-8">
 
 		<title>Estourando balões</title>
-
-		<script language='Javascript'>
-			
-		</script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
 	</head>
 
 	<body>
 
+		<div class="div-nivel">
+			
+			<h1>Selecione um Nível</h1>
+
+			<select id="nivel_jogo" class="form-control">
+				<option value="1">Fácil</option>
+				<option value="2">Medio</option>
+				<option value="3">Dificil</option>
+			</select>
+
+			<a href="jogo.html" class="btn btn-default pull-right" data-toggle="tooltip"data-placement="top" title="Iniciar o Jogo" onclick="iniciarJogo()">
+				<img src="imgs/iniciar.png" class="img img-responsive"/>
+			</a>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script language='Javascript' src="js/myjs.js"></script>
+		<script language='Javascript' src="js/bootstrap.min.js"></script>
 	</body>
 	
 </html>

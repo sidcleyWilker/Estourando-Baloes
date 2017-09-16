@@ -1,0 +1,102 @@
+/* ========================== index =====================*/
+
+body {
+	background: #F5F5F5;
+}
+
+.div-nivel {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img {
+	width: 50px;
+	height: 50px;
+}
+
+h1 {
+	color: #6207e3;
+	padding: 20px;
+	text-align: center; 
+ }
+
+
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+	.div-nivel{
+		max-width: 350px;
+		max-height: 187px;
+	}
+    h1 {
+	    font-size: 40px;
+  	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+	.div-nivel{
+		max-width: 550px;
+		max-height: 287px;
+	}
+    h1 {
+	    font-size: 50px;
+  	}
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+	.div-nivel{
+		max-width: 700px;
+		max-height: 287px;
+	}
+    h1 {
+	    font-size: 60px; 
+  	}
+}
+
+
+/* lg */
+@media screen and (min-width: 1200px) {
+	.div-nivel{
+		max-width: 900px;
+		max-height: 487px;
+	}
+    h1 {
+	    font-size: 75px; 
+  	}
+}
+
+
+/* ========================== Jogo =====================*/
+
+
+
+.cronometro {
+	background: url('../imgs/cronometro.png') no-repeat;
+	height: 110px;
+	width: 140px;
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+	.cronometro {
+		margin-top: 200px;
+	}
+}
+
+
+/* lg */
+@media screen and (min-width: 1200px) {
+	.cronometro {
+		margin-top: 200px;
+	}
+}
+
+
+
+
+
+
+
