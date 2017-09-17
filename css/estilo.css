@@ -2,6 +2,7 @@
 
 body {
 	background: #F5F5F5;
+	overflow-y: hidden;
 }
 
 .div-nivel {
@@ -73,25 +74,24 @@ h1 {
 
 
 
-.cronometro {
+.cronometro-img {
 	background: url('../imgs/cronometro.png') no-repeat;
 	height: 110px;
 	width: 140px;
 }
 
-/* md */
-@media screen and (min-width: 992px) {
-	.cronometro {
-		margin-top: 200px;
-	}
+#cronometro {
+	position: fixed;
+	margin-top: 40px;
+	margin-left: 50px;
+	font-size: 40px;
+	color: red;
 }
 
-
-/* lg */
-@media screen and (min-width: 1200px) {
-	.cronometro {
-		margin-top: 200px;
-	}
+.cenario {
+	background: url("../imgs/cenario.png")no-repeat;
+	height: 550px;
+	width: 600px;
 }
 
 
